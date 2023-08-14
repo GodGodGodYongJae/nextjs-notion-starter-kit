@@ -164,10 +164,21 @@
   margin-left: auto;
   margin-right: auto;
 }
-
+@font-face {
+  font-family: 'ImcreSoojin';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 .notion-title {
   display: block;
   text-align: center;
+  font-family: 'ImcreSoojin';
+}
+.notion-h-title{
+  display: block;
+  text-align: center;
+  font-family: 'ImcreSoojin';
 }
 
 .notion-collection-row {
