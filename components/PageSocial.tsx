@@ -35,6 +35,17 @@ const socialLinks: SocialLink[] = [
       </svg>
     )
   },
+  config.blog && {
+    name: 'blog',
+    href: `https://blog.naver.com/${config.blog}`,
+    title: `blog @${config.blog}`,
+    icon: (
+      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'>
+     <path d="M18 20H2C0.9 20 0 19.1 0 18V2C0 0.9 0.9 0 2 0H18C19.1 0 20 0.9 20 2V18C20 19.1 19.1 20 18 20Z M11.35 10.25L8.50002 6.19995H6.15002V13.8H8.65002V9.74995L11.5 13.8H13.85V6.19995H11.35V10.25Z" />
+      </svg>
+    )
+    
+  },
 
   config.linkedin && {
     name: 'linkedin',

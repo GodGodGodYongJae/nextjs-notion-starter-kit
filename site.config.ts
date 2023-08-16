@@ -6,20 +6,20 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: '2a0770f3cad64c4781732f9f21372b65',
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Kyeonghoon Blog',
+  domain: 'Kyeonghoon.kr',
+  author: 'Kyeong hoon',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Kyeonghoon Notion Blog Site',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
+  youtube: 'channel/UCtZO0omXa1yCIF0Nt73W7pw',
   github: 'GodGodGodYongJae',
-  linkedin: 'fisch2',
+  blog: 'zhaqj12',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -50,16 +50,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: '990fd1c590f643549c80d916e161d8dd'
+    },
+    {
+      title: 'Contact',
+      pageId: 'ae9f1dae7e6248ac93482aa42cb04af0'
+    }
+  ]
 })

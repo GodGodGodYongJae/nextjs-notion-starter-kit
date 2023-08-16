@@ -94,10 +94,10 @@
 }
 
 .github .actionBgPane {
-  background: #c9510c;
+  background: #0077b5;
 }
 .github:hover {
-  border-color: #c9510c;
+  border-color: #0077b5;
 }
 
 .youtube .actionBgPane {
@@ -105,6 +105,12 @@
 }
 .youtube:hover {
   border-color: #FF0000;
+}
+.blog .actionBgPane{
+  background: #00ab6c;
+}
+.blog:hover{
+  border-color: #00ab6c;
 }
 
 .medium .actionBgPane {

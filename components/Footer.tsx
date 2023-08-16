@@ -9,7 +9,7 @@ import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
-
+import { SiNintendo } from "@react-icons/all-files/si/SiNintendo"
 import * as config from '@/lib/config'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
@@ -132,6 +132,18 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaYoutube />
+          </a>
+        )}
+
+        {config.blog && (
+          <a
+            className={styles.blog}
+            href={`https://blog.naver.com//${config.blog}`}
+            title={`Blog ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <SiNintendo />
           </a>
         )}
       </div>
