@@ -58,7 +58,7 @@ export default siteConfig({
       pageId: '990fd1c590f643549c80d916e161d8dd'
     },
     {
-      title: 'Contact',
+      title: 'Learn',
       pageId: 'ae9f1dae7e6248ac93482aa42cb04af0'
     }
   ]
