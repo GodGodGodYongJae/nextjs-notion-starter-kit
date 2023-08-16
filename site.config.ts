@@ -59,7 +59,8 @@ export default siteConfig({
     },
     {
       title: 'Learn',
-      pageId: 'ae9f1dae7e6248ac93482aa42cb04af0'
+      pageId: 'ae9f1dae7e6248ac93482aa42cb04af0',
+      url: 'ae9f1dae7e6248ac93482aa42cb04af0'
     }
   ]
 })
