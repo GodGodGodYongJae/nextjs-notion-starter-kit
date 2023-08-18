@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Document, { Head, Html, Main, NextScript } from 'next/document'
-
+import Script from 'next/script';
 import { IconContext } from '@react-icons/all-files'
 
 export default class MyDocument extends Document {
@@ -9,6 +9,12 @@ export default class MyDocument extends Document {
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <Html lang='en'>
           <Head>
+          <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8904224703245079`}
+          strategy="lazyOnload"
+          crossOrigin="anonymous"
+        />
             <link rel='shortcut icon' href='/favicon.ico' />
             <link
               rel='icon'

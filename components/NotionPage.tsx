@@ -244,9 +244,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   return (
     <>
-    <GoogleAd     data-ad-client="ca-pub-8904224703245079"
-     data-ad-slot="5293648806"
-     data-ad-format="auto"/>
+    <GoogleAd />
       <PageHead
         pageId={pageId}
         site={site}
