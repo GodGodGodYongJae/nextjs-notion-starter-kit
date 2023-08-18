@@ -244,7 +244,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   return (
     <>
-    <GoogleAd />
+
       <PageHead
         pageId={pageId}
         site={site}
@@ -281,6 +281,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         pageAside={pageAside}
         footer={footer}
       />
+            <GoogleAd />
     </>
   )
 }
