@@ -25,7 +25,7 @@ import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
 import { PageAside } from './PageAside'
 import { PageHead } from './PageHead'
-import { adsense } from './adsense'
+
 import styles from './styles.module.css'
 
 // -----------------------------------------------------------------------------
