@@ -25,7 +25,7 @@ import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
 import { PageAside } from './PageAside'
 import { PageHead } from './PageHead'
-
+import GoogleAd from './GoogleAd'
 import styles from './styles.module.css'
 
 // -----------------------------------------------------------------------------
@@ -244,6 +244,9 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   return (
     <>
+    <GoogleAd     data-ad-client="ca-pub-8904224703245079"
+     data-ad-slot="5293648806"
+     data-ad-format="auto"/>
       <PageHead
         pageId={pageId}
         site={site}
@@ -280,7 +283,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
         pageAside={pageAside}
         footer={footer}
       />
-
     </>
   )
 }
